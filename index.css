@@ -1,0 +1,41 @@
+.container{
+    width: 1200;
+    margin: 0 auto;
+}
+.header-area{
+    background-color: #fff;
+    height: 250px;
+}
+.header{
+   
+    display: flex;
+    height: 100px;
+    justify-content: space-between;
+    align-items: center;
+}
+.header > *{
+    flex: 1;
+}
+.header-menu{
+    display: flex;
+    justify-content: space-around;
+}
+.menu{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    gap: 40px;
+}
+.menu-link{
+    font-family: 'poppins' sans-serif;
+    font-size: 12px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #2d2f30;
+}
+header-search > a {
+    text-decoration: none;
+    color: #2d2f30;
+
+}
